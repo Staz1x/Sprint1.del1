@@ -21,6 +21,7 @@ public class Greenest {
 
             for (Plants p : allPlants) {
                 mess = mess + p.getPlantType() +"en "+ p.getName() + " som är " + p.getHeight() + " meter\n";
+                //olika värden beroende på växt
             }
             mess = mess + "Vilken planta ska vattnas?\n";
             String input = JOptionPane.showInputDialog(null, mess);
