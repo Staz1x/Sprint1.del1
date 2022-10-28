@@ -1,8 +1,14 @@
 package sprint1.inlämningar.inlämning1;
 
+
+//      Klassen implementerar interfacet Info som hämtar information om de olika växterna
+//      Klassen innehåller privata variabler(inkapsling) som används i subklasserna
+//      Variablerna har också olika värden beroende på subklassen (polymorfism)
+
+
 abstract public class Plants implements Info{
 
-    private String name;
+    private String name;        //Inkaplsade variabler
     private double height;
     private String plantType;
 
