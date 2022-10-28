@@ -24,6 +24,7 @@ public class Greenest {
                 //olika värden beroende på växt
             }
             mess = mess + "Vilken planta ska vattnas?\n";
+            //Går också använda StringBuilder men valde bort det pga alla "append"
             String input = JOptionPane.showInputDialog(null, mess);
 
             if(input == null)
